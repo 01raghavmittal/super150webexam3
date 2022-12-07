@@ -1,0 +1,97 @@
+.header {
+    height: 18vh;
+    width: 100%;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: #7DCFE8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-pane {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #1C4F5E;
+    border-radius: 5px;
+    background-color:#1C4F5E;
+}
+
+.adder-column {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #264751;
+    border-radius: 5px;
+}
+
+.adder-btn:hover{
+    background-color: rgb(210, 221, 230);   
+}
+
+.color-item {
+    height: 22px;
+    width: 22px;
+    border-radius: 6px;
+}
+
+.new-ticket-section {
+    display: flex;
+    margin-top: 52px;
+    margin-left: 41%;
+
+}
+
+.text-input {
+    border: 11px solid grey;
+
+}
+.color-picker {
+    margin-left: 4.2px;
+    width: 62px;
+    background-color: #154351;
+    border: 10px solid #0a2128;
+}
+.colors {
+    height: 32px;
+    width: 59px;
+}
+.color-items {
+    border : 1px solid rgb(240, 221, 221);
+    height: 80%;
+    margin-top: 10px;
+}
+#red {
+    background-color: rgb(205, 107, 107);
+}
+.red {
+    background-color: rgb(203, 108, 108);
+}
+#blue {
+    background-color: rgb(23, 194, 185);
+}
+.blue {
+    background-color: rgb(23, 189, 180);
+}
+#black {
+    background-color: rgb(16, 15, 15);
+}
+.black {
+    background-color: rgb(17, 16, 16);
+}
+#green {
+    background-color: rgb(138, 216, 138);
+}
+.green {
+    background-color: rgb(125, 199, 125);
+}
+
+.tickets {
+    display : flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
